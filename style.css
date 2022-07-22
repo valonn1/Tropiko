@@ -1,0 +1,445 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+nav{
+    background-color: rgb(233, 230, 230);
+}
+nav ul li a{
+    display: inline;
+
+}
+label.logo{
+    color: black;
+    margin-right: 100px;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    display: inline;
+}
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+    margin: 0 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+nav ul li a:hover{
+    background-color: rgb(184, 184, 184);
+    padding: 20px;
+}
+
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+.sliderimg{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.sliderimg>div>h1{
+    margin-top: 200px;
+    padding: 20px;
+}
+.sliderimg>div>p{
+  margin-left: 20px;
+}
+.sliderimg>div>button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 20px;
+}
+.button1{
+  background-color: #e04b06;
+}
+.button2{
+  background-color: #000;
+}
+
+.sliderimg .img{
+    text-align: end;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+
+  .container{
+    text-align: center;
+  }
+  .container.h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding: 10px;
+  }
+  .container.p{
+    padding: 10px;
+  }
+  .box1{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+  }
+  .box1>img{
+    width: 50px;
+    margin: 55px auto 5px auto;
+  }
+  .box2{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+  }
+  .box2>img{
+    width: 50px;
+    margin: 55px auto 5px auto;
+  }
+  .box3{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+  }
+  .box3>img{
+    width: 50px;
+    margin: 55px auto 5px auto;
+  }
+.boxes{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 100px;
+}
+
+.Orange{
+box-sizing: border-box;
+padding: 80px;
+text-align: left;
+}
+
+.Orange{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container.Orange.img{
+  text-align: end;
+  margin-right: 50px;
+  padding: 50px;
+}
+.Orange>div>img{
+  width: 250px;
+}
+.Orange>div>h2{
+  margin: 10px;
+  text-align: left;
+}
+.Orange>div>p{
+  text-align: left;
+  margin-right: 10px;
+  padding: 10px;
+}
+.Orange>div>button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 20px;
+  background-color: #000;
+}
+.Grapes{
+box-sizing: border-box;
+padding: 80px;
+text-align: left;
+}
+
+.Grapes{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container.Grapes.img{
+  text-align: end;
+  margin-right: 50px;
+  padding: 50px;
+}
+.Grapes>div>img{
+  width: 100px;
+}
+.Grapes>div>h2{
+  margin: 10px;
+  text-align: left;
+}
+.Grapes>div>p{
+  text-align: left;
+  margin-right: 10px;
+  padding: 10px;
+}
+.Grapes>div>button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 20px;
+  background-color: #000;
+}
+.Gauva{
+  box-sizing: border-box;
+  padding: 80px;
+  text-align: left;
+  }
+  
+  .Gauva{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .container.Gauva.img{
+    text-align: end;
+    margin-right: 50px;
+    padding: 50px;
+  }
+  .Gauva>div>img{
+    width: 250px;
+  }
+  .Gauva>div>h2{
+    margin: 10px;
+    text-align: left;
+  }
+  .Gauva>div>p{
+    text-align: left;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .Gauva>div>button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 20px;
+    background-color: #000;
+  }
+
+.tekstimbifoto>h2{
+  position: absolute;
+  font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -318px;
+    margin-left: 20px;
+ }
+ .container2{
+  text-align: center; 
+  padding: 100px;
+ }
+ .contact{
+  background-image: url(./images/orange-dish.png);
+  background-repeat: no-repeat;
+  background-size: 215px;
+  background-position: right center;
+ }
+ .contact h2{
+  padding: 20px;
+  font-size: 32px;
+ }
+ .contact form{
+  margin: 10px;
+ }
+ .contact div input{
+  border: none;
+  outline: none;
+  border-bottom: .8px solid #252525;
+  width: 90%;
+  margin: 10px 0;
+  padding: 15px 0 15px 0;
+  mix-blend-mode: color;
+ }
+ .contact form{
+  padding: 20px;
+ }
+ .contact button{
+  border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 20px;
+    background-color: rgb(228, 92, 1);
+ }
+ .footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 0%;
+  background: rgb(233, 230, 230);
+  display: flex;
+ }
+
+.footer div{
+  text-align: center;
+}
+.col1{
+  margin-right: 100px ;
+  margin-left: 100px ;
+}
+.col1 a{
+  text-align: left;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+}
+.col1 h3{
+  margin-bottom: 20px;
+  text-align: start;
+  display: inline-block;
+}
+.col2{
+  margin-right: 100px ;
+  margin-left: 100px ;
+}
+.col2 h3{
+  
+  margin-bottom: 20px;
+}
+.col2 form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: none;
+
+}
+.col2 button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 20px;
+  background-color: #000;
+}
+.col3{
+  margin-right: 100px ;
+  margin-left: 100px ;
+}
+.col3>div{
+  margin-top: 50px;
+}
